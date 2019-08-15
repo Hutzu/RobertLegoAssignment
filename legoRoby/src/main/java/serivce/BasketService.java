@@ -3,13 +3,11 @@ package serivce;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import basket.Basket;
 import basket.Product;
 import database.Database;
 
 public class BasketService {
 
-    private ArrayList<String> list = new ArrayList<String>();
     private Database db = new Database();
     
     public BasketService() {
